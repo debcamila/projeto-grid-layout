@@ -3,7 +3,7 @@ body, p, h1, ul, li, blockquote{
     margin: 0px;
 }
 body{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Volkorn', Georgia, sans-serif;
 }
 li{
     list-style: none;
@@ -145,7 +145,6 @@ p{
     color: #B07DFB;
 }
 .number{
-    color: #B07DFB;
     font-size: 3em;
     line-height: 1;
     margin: 10px auto;
@@ -156,6 +155,35 @@ p{
     padding: 5px 0;
     position: relative;
     top: 2px;
+}
+.spotlight{
+    font-size: 0.875em;
+    color: #B07DFB;
+    max-width: 16em;
+}
+.quote, .attributes{
+    align-self: start;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(44,44,44,.0.15);
+    background: linear-gradient(135deg, #8844ee, #B07DFB);
+}
+.quote p{
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.attributes li{
+    color: #fff;
+    font-family: Courier, monospace;
+    font-size: 1.125em;
+    padding: 15px;
+}
+.attributes li + li{
+    border-top: 2px solid #B07DFB;
 }
 
 /* ANÚNCIOS */
