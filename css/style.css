@@ -84,7 +84,24 @@ img{
 /* CONTEÚDO */
 .content{
     grid-area: content;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
 }
+.col-wide{
+    grid-column: 1 / -1;
+}
+.img-1{
+    grid-row: span 2;
+    align-self: end;
+}
+.img-2{
+    align-self: end;
+}
+
 
 /* ANÚNCIOS */
 .adverts{
@@ -95,7 +112,6 @@ img{
     padding: 30px;
     grid-gap: 30px;
 }
-
 
 /* FOOTER */
 .footer{
